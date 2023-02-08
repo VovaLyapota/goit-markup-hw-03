@@ -237,7 +237,7 @@ h6 {
 }
 
 .advances.list .item {
-  width: calc((100%-72px) / 4);
+  width: calc((100% - 72px) / 4);
 }
 
 .advances.list .item:not(:last-child) {
@@ -292,7 +292,7 @@ h6 {
 
 .team-section .item {
   text-align: center;
-  width: calc((100%-72px) / 4);
+  width: calc((100% - 72px) / 4);
 
   background-color: var(--primary-white-color);
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
@@ -305,7 +305,11 @@ h6 {
 }
 
 .team-section .description {
-  padding: 32px 60px;
+  padding: 32px 16px;
+}
+
+.team-section .primary-text {
+  margin: 0;
 }
 
 .team-section img {
